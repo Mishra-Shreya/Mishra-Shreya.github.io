@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Shreya Mishra</title>
+    <meta name="description" content="Designer and Developer">
+    <!-- <meta property="og:locale" content="ja_JP"> -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Shreya Mishra">
+    <meta property="og:title" content="Shreya Mishra">
+    <meta property="og:description" content="Designer and Developer">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="google" content="nositelinkssearchbox">
+    <meta name="google" content="notranslate">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/cursor.css">
+</head>
+
+<body>
+
+    <div id="EnterView">
+        <div class="_t1"><span>S</span>hreya Mishra</div>
+        <div class="_t2">Portfolio</div>
+    </div>
+    <div id="Page">
+        <div id="Background"><canvas></canvas></div>
+        <div class="mask" id="Mask">
+            <div class="mask_top"></div>
+            <div class="mask_bottom"></div>
+        </div>
+
+        <div class="frame" id="Frame">
+            <div class="frame_line frame_line-left"></div>
+            <div class="frame_line frame_line-right"></div>
+            <div class="frame_line frame_line-top"></div>
+            <div class="frame_line frame_line-bottom"></div>
+        </div>
+        <!-- <div class="theme" id="Theme" x-data @click="$store.ui.toggleTheme()">
+            <div class="theme_color" :class="{ 'is-selected': $store.ui.theme === 'light' }">
+                <div class="_box"></div>
+                <div class="_text">Light</div>
+            </div>
+            <div class="theme_color" :class="{ 'is-selected': $store.ui.theme === 'dark' }">
+                <div class="_box"></div>
+                <div class="_text">Dark</div>
+            </div>
+        </div> -->
+        <header class="siteHeader" id="SiteHeader">
+            <h1 class="siteHeader_title">
+                <span id="hl">S</span>hreya Mishra
+            </h1>
+            <p class="siteHeader_label"> &lt; Software Engineer | Web/Android/Game Developer &gt;</p>
+            <nav class="siteHeader_nav" x-data>
+                <ol>
+                    <li :class="{ 'is-selected': $store.ui.currentPath === '/' }">
+                        <div class="_dot">&#x25cf;</div><a class="_text" href="/">Home</a>
+                    </li>
+                    <li :class="{ 'is-selected': $store.ui.currentPath === '/projects/' }">
+                        <div class="_dot">&#x25cf;</div><a class="_text" href="/projects/">Projects</a>
+                    </li>
+                    <li :class="{ 'is-selected': $store.ui.currentPath === '/skills/' }">
+                        <div class="_dot">&#x25cf;</div><a class="_text" href="/skills/">Skills</a>
+                    </li>
+                    <li :class="{ 'is-selected': $store.ui.currentPath === '/info/' }">
+                        <div class="_dot">&#x25cf;</div><a class="_text" href="/info/">Info</a>
+                    </li>
+                    <li>
+                        <div class="_dot">&#x25cf;</div><a class="_text"
+                            href="https://drive.google.com/file/d/1noHzxdToxYZTjqwL6_YnQMoOgzS2Y8ZS/view?usp=sharing"
+                            target="_blank">Resume</a>
+                    </li>
+                </ol>
+            </nav>
+        </header>
+        <main class="content" id="Content">
+            <div class="content_inner">
+                <section class="page" data-page="home">
+                    <div class="page_content home">
+                        <div class="contact_wrap">
+                            <p class="contact_text">
+                                Hey there!<br>
+                                My name is Shreya Mihsra <br> 
+                                I'm currently in the final year <br> 
+                                of Bachelor of Engineering,<br>
+                                majoring in <br>
+                                Electronics & Telecommunication<br>
+                                at the University of Mumbai.<br>
+                                I've a passion for all things creative,<br> 
+                                from software engineering to UI/UX.<br>
+                                I believe design & development<br>
+                                bring out the best in ourselves.<br>
+                                Thus, I aim to challenge myself and grow further.
+                            </p>
+                            <img class="contact_forPeopleOverseas" id="img" src="/assets/images/sm.png" alt="SM">
+
+                        </div>
+                        <!-- <img class="home_aboutme" id="img" src="/assets/images/sm.png" alt="SM"> -->
+                    </div>
+                </section>
+                <section class="page" data-page="projects">
+                    <div class="page_content project">
+
+                        <!-- <div class="demo" style="width: 50%;"> -->
+                            <div class="computer " id="one">
+                                <img src="/assets/images/mobile.png"
+                                    
+                                    style="width: 23%;"
+                                    alt="Iphone Apple">
+                                <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img gif"
+                                    style="background-position-y: 50%; top: 52%;left: 36%;width: 52%;height: 97%;  background-image: url('/assets/images/sanket-2x.gif')"></i>
+                            </div>
+
+                            <div class="computer " id="two">
+                                <img src="/assets/images/laptop.png"
+                                    
+                                    alt="MacBook Computer Apple">
+                                <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img gif"
+                                    style="background-position-y: 50%; background-image: url('/assets/images/bjt.gif')"></i>
+                            </div>
+
+                            <div class="computer " id="three">
+                                <img src="/assets/images/laptop.png"
+                                    
+                                    alt="MacBook Computer Apple">
+
+                                <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img gif"
+                                    style="background-position-y: 50%; background-image: url('/assets/images/quizzen-1.gif')"></i>
+                            </div>
+                        <!-- </div> -->
+                        
+
+
+
+                        <div class="project_section">
+                            <h2 class="project_heading">&#x25a0; Projects (Design & Develop)</h2>
+                            <div class="project_list">
+                                <a class="project_item text-btn pj" id="first" href="https://github.com/Mishra-Shreya/Sanket"
+                                    target="_blank" rel="noopener">
+                                    <div class="project_title bold" >Sanket</div>
+                                    <div class="project_info ">2022 - Present</div>
+                                </a>
+                                <a class="project_item text-btn pj" id="second" href="https://mishra-shreya.github.io/The_BJT_Game/" target="_blank"
+                                    rel="noopener">
+                                    <div class="project_title bold">Brain Jigsaw Teaser</div>
+                                    <div class="project_info ">2021</div>
+                                </a>
+                                <a class="project_item text-btn pj" id="third" href="http://shreyasanjaymishra.pythonanywhere.com/" target="_blank"
+                                    rel="noopener">
+                                    <div class="project_title bold">Quizzen</div>
+                                    <div class="project_info ">2021</div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- <div class="project_section">
+                            <h2 class="project_heading">&#x25a0; Projects (Only Develop)</h2>
+                            <div class="project_list"><a class="project_item text-btn" href="https://vixi-vixi.jp"
+                                    target="_blank" rel="noopener">
+                                    <div class="project_title">VIXI</div>
+                                    <div class="project_info">2021 / Commission</div>
+                                </a><a class="project_item text-btn" href="https://signif.jp" target="_blank"
+                                    rel="noopener">
+                                    <div class="project_title">Signif</div>
+                                    <div class="project_info">2020 / Commission</div>
+                                </a><a class="project_item text-btn" href="https://nanameinc.jp" target="_blank"
+                                    rel="noopener">
+                                    <div class="project_title">naname</div>
+                                    <div class="project_info">2020 / Commission</div>
+                                </a></div>
+                        </div> -->
+                    </div>
+                </section>
+                <section class="page" data-page="skills">
+                    <div class="page_content project">
+                        <div class="project_section">
+                            <h2 class="project_heading">&#x25a0; Skills</h2>
+                            <div class="project_list">
+                                <a class="project_item text-btn " href="#"
+                                    rel="noopener">
+                                    <div class="project_title " >HTML</div>
+                                    <div class="project_info ">01</div>
+                                </a>
+                                <a class="project_item text-btn " href="#"
+                                    rel="noopener">
+                                    <div class="project_title ">CSS</div>
+                                    <div class="project_info ">02</div>
+                                </a>
+                                <a class="project_item text-btn " href="#"
+                                    rel="noopener">
+                                    <div class="project_title ">JavaScript</div>
+                                    <div class="project_info ">03</div>
+                                </a>
+                                <a class="project_item text-btn" href="#"
+                                    rel="noopener">
+                                    <div class="project_title " >Python</div>
+                                    <div class="project_info ">04</div>
+                                </a>
+                                <a class="project_item text-btn " href="#"
+                                    rel="noopener">
+                                    <div class="project_title ">C++</div>
+                                    <div class="project_info ">05</div>
+                                </a>
+                                <a class="project_item text-btn " href="#"
+                                    rel="noopener">
+                                    <div class="project_title ">Dart</div>
+                                    <div class="project_info ">06</div>
+                                </a>
+                                <a class="project_item text-btn" href="#"
+                                rel="noopener">
+                                    <div class="project_title " >Data Structures <br> & Algorithms</div>
+                                    <div class="project_info ">07</div>
+                                </a>
+                                <a class="project_item text-btn" href="#"
+                                rel="noopener">
+                                    <div class="project_title " >MySQL</div>
+                                    <div class="project_info ">08</div>
+                                </a>
+                                <a class="project_item text-btn " href="#"
+                                    rel="noopener">
+                                    <div class="project_title ">DBMS</div>
+                                    <div class="project_info ">09</div>
+                                </a>
+                                <a class="project_item text-btn " href="#"
+                                    rel="noopener">
+                                    <div class="project_title ">Flask</div>
+                                    <div class="project_info ">10</div>
+                                </a>
+                                <a class="project_item text-btn " href="#"
+                                    rel="noopener">
+                                    <div class="project_title ">Flutter</div>
+                                    <div class="project_info ">11</div>
+                                </a>
+                                <a class="project_item text-btn " href="#"
+                                    rel="noopener">
+                                    <div class="project_title ">Unity</div>
+                                    <div class="project_info ">12</div>
+                                </a>
+                                <a class="project_item text-btn " href="#"
+                                    rel="noopener">
+                                    <div class="project_title ">Blender</div>
+                                    <div class="project_info ">13</div>
+                                </a>
+                                <a class="project_item text-btn " href="#"
+                                    rel="noopener">
+                                    <div class="project_title ">Machine Learning</div>
+                                    <div class="project_info ">14</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="page" data-page="info">
+                    <div class="page_content info">
+                        <div class="info_item info_item-1">
+                            <div class="info_content">
+                                <ul>
+                                    <li><a class="text-btn" href="https://github.com/Mishra-Shreya" target="_blank"
+                                            rel="noopener">Github ↗</a></li>
+                                    <li><a class="text-btn" href="https://www.linkedin.com/in/shreya-sanjay-mishra/"
+                                            target="_blank" rel="noopener">LinkedIn ↗</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="info_item info_item-2">
+                            <div class="info_content">
+                                <ul>
+                                    <li><a class="text-btn" href="mailto:shreyamishra062001@gmail.com" target="_blank"
+                                            rel="noopener">shreyamishra062001@gmail.com ↗</a></li>
+                                    <li><a class="text-btn" href="/" rel="noopener">shreya.mishra ↗</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="info_item info_item-3">
+                            <div class="info_content">
+                                <ul>
+                                    <li><span class="is-light">AWS AI & ML Scholarship<br></span><span>2022
+                                            Recipient</span></li>
+                                    <li><span class="is-light">Smart India Hackathon (SIH'22)<br></span><span>2022
+                                            Finalist</span></li>
+                                    <li><span class="is-light">PCRA Nationals (Ministry of Petroleum,
+                                            GOI)<br></span><span>2016
+                                            Top 50</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="page" data-page="contact">
+                    <div class="page_content contact">
+                        <div class="contact_wrap">
+                            <p class="contact_text">
+                                <!-- Born in 2001. <br> -->
+                                I've an affinity for <br>
+                                designing and problem solving. <br>
+                                I believe web design <br>
+                                can be more diverse <br> and inspiring. <br>
+                            </p>
+                            <img class="contact_forPeopleOverseas" id="img" src="/assets/images/sm.png" alt="SM">
+                           
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    <div class="cursor"></div>
+
+    
+
+    <script>
+        const el = document.getElementById('first');
+        const hiddenDiv = document.getElementById('one');
+
+        el.addEventListener('mouseover', function handleMouseOver() {
+        hiddenDiv.style.display = 'block';
+        });
+
+        el.addEventListener('mouseout', function handleMouseOut() {
+        hiddenDiv.style.display = 'none';
+        });
+
+        const el2 = document.getElementById('second');
+        const hiddenDiv2 = document.getElementById('two');
+
+        el2.addEventListener('mouseover', function handleMouseOver() {
+        hiddenDiv2.style.display = 'block';
+        });
+
+        el2.addEventListener('mouseout', function handleMouseOut() {
+        hiddenDiv2.style.display = 'none';
+        });
+
+        const el3 = document.getElementById('third');
+        const hiddenDiv3 = document.getElementById('three');
+
+        el3.addEventListener('mouseover', function handleMouseOver() {
+        hiddenDiv3.style.display = 'block';
+        });
+
+        el3.addEventListener('mouseout', function handleMouseOut() {
+        hiddenDiv3.style.display = 'none';
+        });
+    </script>
+
+    <script src="/assets/js/vendor.js"></script>
+    <script src="/assets/js/cursor.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js'></script> -->
+
+</body>
+
+</html>
