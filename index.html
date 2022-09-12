@@ -54,7 +54,19 @@
             <h1 class="siteHeader_title">
                 <span id="hl">S</span>hreya Mishra
             </h1>
-            <p class="siteHeader_label"> &lt; Software Engineer | Web/Android/Game Developer &gt;</p>
+            <div class="cont">
+                <p class="siteHeader_label"> &lt; Software Engineer | </p>
+             <!-- Web/Android/Game  -->
+             <div class="scroller">
+                <span>
+                  Web<br/>
+                  Android<br/>
+                  Game
+                </span>
+              </div>
+            <p class="siteHeader_label"> Developer &gt;</p>
+            </div>
+            
             <nav class="siteHeader_nav" x-data>
                 <ol>
                     <li :class="{ 'is-selected': $store.ui.currentPath === '/' }">
@@ -177,8 +189,10 @@
                 </section>
                 <section class="page" data-page="skills">
                     <div class="page_content project">
+                        <h2 class="project_heading">&#x25a0; Skills</h2> 
+                        <br>
                         <div class="project_section">
-                            <h2 class="project_heading">&#x25a0; Skills</h2>
+                            
                             <div class="project_list">
                                 <a class="project_item text-btn " href="#"
                                     rel="noopener">
@@ -227,29 +241,35 @@
                                 </a>
                                 <a class="project_item text-btn " href="#"
                                     rel="noopener">
+                                    <div class="project_title ">Git</div>
+                                    <div class="project_info ">10</div>
+                                </a>
+                                <a class="project_item text-btn " href="#"
+                                    rel="noopener">
                                     <div class="project_title ">Flask</div>
                                     <div class="project_info ">10</div>
                                 </a>
                                 <a class="project_item text-btn " href="#"
                                     rel="noopener">
                                     <div class="project_title ">Flutter</div>
-                                    <div class="project_info ">11</div>
-                                </a>
-                                <a class="project_item text-btn " href="#"
-                                    rel="noopener">
-                                    <div class="project_title ">Unity</div>
                                     <div class="project_info ">12</div>
                                 </a>
                                 <a class="project_item text-btn " href="#"
                                     rel="noopener">
-                                    <div class="project_title ">Blender</div>
+                                    <div class="project_title ">Unity</div>
                                     <div class="project_info ">13</div>
                                 </a>
                                 <a class="project_item text-btn " href="#"
                                     rel="noopener">
-                                    <div class="project_title ">Machine Learning</div>
+                                    <div class="project_title ">Blender</div>
                                     <div class="project_info ">14</div>
                                 </a>
+                                <a class="project_item text-btn " href="#"
+                                    rel="noopener">
+                                    <div class="project_title ">Machine Learning</div>
+                                    <div class="project_info ">15</div>
+                                </a>
+                                
                             </div>
                         </div>
                     </div>
