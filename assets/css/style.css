@@ -718,9 +718,9 @@ body {
   }
   .computer .gif {
     /* position: absolute; */
-    top: 50%;
+    top: 50.25%;
     left: 37%;
-    width: 410px;
+    width: 445px;
     height: 100%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
