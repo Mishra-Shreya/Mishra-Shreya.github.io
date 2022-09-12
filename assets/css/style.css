@@ -311,14 +311,12 @@ body {
 
 @media(hover: hover) {
     .text-btn:hover {
-        
         opacity: 0.75;
         transition-duration: 10s;
-        transform: translateX(-50px)
+        transform: translateX(-30px)
     }
 
     .pj:hover {
-        
         opacity: 0.75;
         transition-duration: 10s;
         transform: translateX(10px)
