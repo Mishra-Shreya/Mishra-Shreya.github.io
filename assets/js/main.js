@@ -709,6 +709,30 @@
                                     document.getElementById('img').style.setProperty(
                                         "filter",
                                         "invert(0)"
+                                    ),
+                                    document.getElementById('mob').style.setProperty(
+                                        "filter",
+                                        "invert(0)"
+                                    ),
+                                    document.getElementById('comp1').style.setProperty(
+                                        "filter",
+                                        "invert(0)"
+                                    ),
+                                    document.getElementById('comp2').style.setProperty(
+                                        "filter",
+                                        "invert(0)"
+                                    ),
+                                    document.getElementById('sanket').style.setProperty(
+                                        "filter",
+                                        "invert(0)"
+                                    ),
+                                    document.getElementById('bjt').style.setProperty(
+                                        "filter",
+                                        "invert(0)"
+                                    ),
+                                    document.getElementById('quizzen').style.setProperty(
+                                        "filter",
+                                        "invert(0)"
                                     )
                                     ) :
                                 (this.$page.classList.remove("is-dark"),
@@ -725,6 +749,30 @@
                                         "invert(1)"
                                     ),
                                     document.getElementById('img').style.setProperty(
+                                        "filter",
+                                        "invert(1)"
+                                    ),
+                                    document.getElementById('mob').style.setProperty(
+                                        "filter",
+                                        "invert(1)"
+                                    ),
+                                    document.getElementById('comp1').style.setProperty(
+                                        "filter",
+                                        "invert(1)"
+                                    ),
+                                    document.getElementById('comp2').style.setProperty(
+                                        "filter",
+                                        "invert(1)"
+                                    ),
+                                    document.getElementById('sanket').style.setProperty(
+                                        "filter",
+                                        "invert(1)"
+                                    ),
+                                    document.getElementById('bjt').style.setProperty(
+                                        "filter",
+                                        "invert(1)"
+                                    ),
+                                    document.getElementById('quizzen').style.setProperty(
                                         "filter",
                                         "invert(1)"
                                     )
