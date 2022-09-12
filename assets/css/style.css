@@ -608,11 +608,28 @@ body {
     white-space: nowrap
 }
 
-@media(min-width: 1280px) {
+@media(min-width: 768px) {
+    .contact {
+        position: relative;
+        left: auto;
+        bottom: auto;
+        height: calc(var(--vh, 1vh)*100)
+    }
+}
+
+.contact_wrap {
+    position: relative;
+    left: calc(var(--pad)*2);
+    white-space: nowrap;
+}
+
+@media(min-width: 768px) {
     .contact_wrap {
         display: flex;
-        /* align-items: baseline; */
-        /* column-gap: 10px */
+        position: static;
+        right: calc(var(--pad)*2);
+        justify-content: end;
+        column-gap: 10px
     }
 }
 
@@ -620,20 +637,25 @@ body {
     font-family: "Hiragino Sans", Meiryo, sans-serif;
     font-weight: 500;
     font-size: 14px;
+    left: calc(var(--pad)*2);
     display: flex;
     align-items: flex-end;
 }
 
 .contact_forPeopleOverseas {
+    left: calc(var(--pad)*2);
     margin-top: 100px;
-    width: 60vh;
-    line-height: 1.5;
-    /* align-self: center; */
+    width: 20%;
+    /* line-height: 1.5; */
 }
 
 @media(min-width: 1280px) {
     .contact_forPeopleOverseas {
         margin-top: 0;
+        position: relative;
+        left: auto;
+        bottom: auto;
+        /* height: calc(var(--vh, 1vh)*100) */
     }
 }
 
